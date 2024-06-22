@@ -38,10 +38,10 @@ public class MostrarDatosUsuario {
         }
         
         // Mostramos los datos
-        System.out.print("Nombre      Edad        Sexo");
+        System.out.println("Nombre      Edad        Sexo");
         System.out.println("_____       ____        ____");
         for(int i = 0; i < nombre.length; i++){
-            System.out.println(nombre[i] + "\t" + edad[i] + "\t" + sexo[i]);
+            System.out.println(nombre[i] + "\t\t" + edad[i] + "\t\t" + sexo[i]);
         }
         
     }
