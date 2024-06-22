@@ -36,6 +36,7 @@ public class EncontrarNumeroMayorMenor {
             }
         }
         
+        // Mostramos los resultados
         System.out.println("Numero Mayor: " + numMayor);
         System.out.println("Numero Menor: " + numMenor);
     }
